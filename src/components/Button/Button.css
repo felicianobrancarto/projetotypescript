@@ -1,0 +1,21 @@
+.button {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    background-color: #407BFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    align-items:center;
+    Width: 32%;
+    Height: 45px;
+  }
+  .icon{
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    left: 91%;
+    top: 0%;
+    background: rgba(38, 50, 56, 0.5);
+    border-radius: 0px 10px 10px 0px;
+  }

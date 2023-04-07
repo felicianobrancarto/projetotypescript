@@ -1,0 +1,50 @@
+.containerLogin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 551px;
+    height: 650px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+  }
+  .nameLogin{
+    font-size: 48px;
+    margin-top: 120px;
+    color: #263238
+  }
+  .inputEmail{
+    margin-top: 55px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    border-color: #E1E1E1;
+    font-size: 18px;
+  }
+  .inputSenha{
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    border-color: #E1E1E1;
+    font-size: 18px;
+  }
+  .textoResetSenha{
+    color:#407BFF;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 48%;
+    
+  }
+  .estiloLink{
+    text-decoration: none;
+    left: 35px;
+  }
+  .estiloBotao{
+    left: 500px;
+  }
+  
+  
+  
