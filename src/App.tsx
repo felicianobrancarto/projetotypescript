@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Pages } from "./routes/Pages";
-import { Home } from "./routes/Pages/Home";
+import Home  from "./routes/Pages/Home";
 import Admin from "./routes/Pages/Admin";
 import Catalogo from "./routes/Pages/Catalogo";
 

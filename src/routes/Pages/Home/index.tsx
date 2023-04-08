@@ -3,7 +3,7 @@ import Imagem from './Desenho.svg'
 import './Home.css'
 
 
-export const Home = () => {
+const Home = () => {
 
     return (
 
@@ -19,3 +19,5 @@ export const Home = () => {
         </div>
     )
 }
+
+export default Home;

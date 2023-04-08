@@ -2,7 +2,7 @@ import './Admin.css';
 import Imagem from './imagemAdmin.svg';
 import FormularioLogin from '../../../components/FormularioLogin';
 
-function index() {
+function Admin() {
     return (
         <div className='containerAdmin'>
             <div>
@@ -17,4 +17,4 @@ function index() {
     );
 }
 
-export default index;
+export default Admin;
