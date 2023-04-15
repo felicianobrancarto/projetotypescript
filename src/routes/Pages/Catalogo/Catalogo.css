@@ -1,19 +1,63 @@
 .containerMainn {
-    display: flex;
-    text-align: center;
-    color: black;
-    background-color: #ffffff;
-    width: 300px;
-    max-width: 360px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    flex-direction:column;
-  }
-.divBox{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    padding:20px, 20px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; /* centraliza verticalmente */
+  color: black;
+  background-color: #ffffff;
+  width: 300px;
+  max-width: 360px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.divBoxx {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.imagemProd {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+
+}
+.valores {
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+
+.price {
+  color: #407BFF;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 5%;
+}
+
+.cifrao {
+  color: #9E9E9E;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  margin-left: 5%;
+  align-items: flex-start;
+
+}
+.title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  color: #263238;
+  text-align: left;
+  margin-left: 5%;
 }

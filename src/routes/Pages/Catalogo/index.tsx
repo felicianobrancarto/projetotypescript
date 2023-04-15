@@ -1,9 +1,8 @@
 import './Catalogo.css'
-import testeImagem from '../../Pages/Home/Desenho.svg'
 import { useEffect, useState } from 'react';
 import { getProduto } from '../../../service/Service';
 
-interface Produtos{
+interface Produtos {
     id: number,
     title: string,
     price: number,
@@ -20,7 +19,7 @@ function Catalogo() {
     const [product, setProduct] = useState<Array<Produtos>>([]);
     useEffect(() => {
         getBuscaProduto()
-    }, []); 
+    }, []);
     async function getBuscaProduto() {
         let resultado = await getProduto()
         setProduct(resultado)
@@ -28,17 +27,15 @@ function Catalogo() {
 
     return (
 
-        <div className='divBox'>
+        <div className='divBoxx'>
             {product && product.map((item) => {
-console.log(item)
                 return (
-            
-                    <div key='item.id' className="containerMainn">
-                        <img src={item.image} />
-                        <p></p>
-                        <div>
-                            <p>{item.title}</p>
-                            <p>{item.price}</p>
+                    <div key={item.id} className="containerMainn">
+                        <img src={item.image} className="imagemProd" />
+                        <p className='title'>{item.title}</p>
+                        <div className='valores'>
+                            <p className='cifrao'>R$</p>
+                            <p className='price'>{item.price.toFixed(2)}</p>
                         </div>
                     </div>
                 )
