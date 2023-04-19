@@ -1,3 +1,6 @@
+.divPaiCatalogo{
+  color: #E5E5E5;;
+}
 .containerMainn {
   display: flex;
   flex-direction: column;
@@ -10,6 +13,31 @@
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   margin: 2%;
+}
+.barraPesquisa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 2%;
+  height: 45px;
+
+}
+.iconPesquisa {
+  position: absolute;
+  margin-right: 630px;
+  margin-top: 2px;
+  color: #000000;
+  height: 25px;
+  width: 25px;
+  ;
+}
+
+.inputsPesquisa{
+  height: 30px;
+  width: 25%;
 }
 
 .divBoxx {
@@ -60,4 +88,9 @@
   color: #263238;
   text-align: left;
   margin-left: 5%;
+}
+.pagination{
+  color: black;
+  display: flex;
+  justify-content:space-evenly;
 }
