@@ -94,45 +94,6 @@
   text-align: left;
   margin-left: 5%;
 }
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-.pagination a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #E1E1E1;
-  color: white;
-  margin: 0 5px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.pagination a:hover {
-  border: 3px solid #407BFF;
-  color: #fff;
-} 
-/* quando o cursor passar por cima */
-
-.active2 a {
-  color: #ffffff;
-  background-color: #407BFF;
-}
-
-.pagination-item-active {
-  color: red;
-}
-.pagination-previous, .pagination-next {
-  border-radius: none !important;
-}
-
 .catalogoDeProd {
   color: #263238;
   font-weight: 700;
@@ -150,4 +111,44 @@
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.pagination a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  color: #ffffff;
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pagination a:hover {
+  border: 3px solid #407bff;
+  color: #fff;
+}
+/* quando o cursor passar por cima, aciona a borda azul, cuidado com confluitos */
+
+.ativado a {
+  color: #ffffff;
+  background-color: #407bff;
+}/* ao selecionar, fazer a cor da letra ficar branca e o background azul.*/
+
+.custom-previous a {
+  background-color: white;
+  color: #407bff;
+}
+.custom-next a {
+  background-color: white;
+  color: #407bff;
 }
