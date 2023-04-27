@@ -26,4 +26,15 @@ console.log(erro)
     }
 }
 
+export async function getId(id:any) {
+    try{
+        const {data} = await api.get(`/products/${id}`)
+        console.warn(data)
+        return data
+
+    }catch(erro){
+console.log(erro)
+    }
+}
+
 export default api;
