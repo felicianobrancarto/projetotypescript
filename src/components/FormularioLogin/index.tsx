@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './FormularioLogin.css'
-import Button from '../Button'
+import { FaChevronRight } from 'react-icons/fa';
 
 function FormularioLogin() {
     function acessarAdmin(e: React.FormEvent<HTMLFormElement>){
@@ -24,10 +24,11 @@ function FormularioLogin() {
                     <Link to="esqueci_senha.php" className='estiloLink'>Esqueci a senha?</Link>
                 </div>
                 <div className='estiloBotao'>
-                    {/*<Button type="submit" onClick={acessarAdmin}>LOGAR</Button>*/}
+                    <button type="submit" className='buttonForm'>LOGAR <FaChevronRight className="iconForm"/></button>
                 </div>
-                <div>
-                <a href="cadastro.php">Não tem Cadastro? CADASTRAR</a>
+                <div className='cadastroAdmin'>
+                <p>Não tem Cadastro? </p>
+                <Link to="/admin/users">CADASTRAR</Link>
                 </div>
 
 

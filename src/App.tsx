@@ -4,6 +4,7 @@ import Home  from "./routes/Pages/Home";
 import Admin from "./routes/Pages/Admin";
 import Catalogo from "./routes/Pages/Catalogo";
 import ProdutoDetalhes from "./components/ProdutoDetalhes";
+import CadastroAdmin from "./components/CadastroAdmin";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/catalogo" element={<Catalogo />} />
           <Route path="/catalogo/:id" element={<ProdutoDetalhes />} />
+          <Route path="/admin/users" element={<CadastroAdmin />} />
         </Route>
   
       </Routes>

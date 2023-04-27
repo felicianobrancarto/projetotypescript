@@ -51,6 +51,7 @@
   font-weight: 700;
   font-size: 36px;
   max-width: 100%;
+  padding: 15px;
   line-height: 35px;
   letter-spacing: -0.015em;
   color: #263238;
@@ -58,6 +59,7 @@
   margin-left: 5%;
   height: 5%;
   overflow-wrap: break-word; /* quebra de palavras */
+  word-break: break-all; /* added */
 }
 
 .divImagemDetalhes {
@@ -73,8 +75,9 @@
   margin-left: 25%;
 }
 .imagemProdDetalhes {
-max-width: 50%;
-
+  width: 50%;
+max-width: 100%;
+max-height: auto;
 }
 .textoDescriçaoprod {
   display: flex;

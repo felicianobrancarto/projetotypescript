@@ -1,0 +1,26 @@
+.containerCadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonFormUsers{
+    right: 118px;
+    bottom: 180px;
+    background-color: #407BFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    align-items:center;
+    Width: 100%;
+    Height: 45px;
+    margin-top: 25px;
+}
+.form{
+    margin-top: 70px;
+}
