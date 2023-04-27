@@ -1,0 +1,106 @@
+.divPaiCatalogo{
+  color: #E5E5E5;;
+}
+.containerMainn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; /* centraliza verticalmente */
+  color: black;
+  background-color: #ffffff;
+  width: 300px;
+  max-width: 360px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 2%;
+  
+}
+.barraPesquisa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 45px;
+  margin-left: 35px;
+  margin-right: 40px;
+
+}
+.iconPesquisa {
+  position: absolute;
+  margin-right: 630px;
+  margin-top: 2px;
+  color: #000000;
+  height: 25px;
+  width: 25px;
+  ;
+}
+
+.inputsPesquisa{
+  height: 30px;
+  width: 25%;
+}
+
+.divBoxx {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin: 2%;
+}
+
+.imagemProd {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+
+}
+.valores {
+  display: flex;
+  align-items: center;
+  width:100%;
+}
+
+.price {
+  color: #407BFF;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 5%;
+}
+
+.cifrao {
+  color: #9E9E9E;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  margin-left: 5%;
+  align-items: flex-start;
+
+}
+.title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  color: #263238;
+  text-align: left;
+  margin-left: 5%;
+}
+.pagination{
+  color: black;
+  display: flex;
+  justify-content:space-evenly;
+}
+.catalogoDeProd{
+  color: #263238;
+  font-weight: 700;
+  mix-blend-mode: normal;
+  font-size: 24px;
+  margin-left: 35px;
+}
